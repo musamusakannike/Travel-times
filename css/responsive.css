@@ -1,0 +1,26 @@
+@media screen and (max-width: 768px) {
+	#hero .hero-image{
+		height: 70vh;
+	}
+	.main-list .card img{
+		width: 290px;
+		height: 170px;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	#hero .hero-image{
+		height: 100vh;
+	}
+	.main-list .card img{
+		width: 320px;
+		height: 190px;
+	}
+}
+
+@media screen and (min-width: 990px) {
+	.main-list .card img{
+		width: 350px;
+		height: 220px;
+	}
+}
